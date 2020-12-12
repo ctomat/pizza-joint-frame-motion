@@ -1,0 +1,17 @@
+@use '../../scss/colors';
+
+.base {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  .step1-text {
+    font-size: 20px;
+    letter-spacing: 2px;
+    hr {
+      border: solid 1px colors.$white;
+      border-radius: 3px;
+      width: 50px;
+    }
+  }
+}

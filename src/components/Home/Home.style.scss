@@ -1,0 +1,13 @@
+@use '../../scss/colors';
+
+.Welcome {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .hero-text {
+    font-size: 22px;
+    letter-spacing: 2px;
+  }
+}

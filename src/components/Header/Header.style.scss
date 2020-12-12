@@ -1,0 +1,25 @@
+@use '../../scss/colors.scss';
+
+.bar-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+  .pizza-icon-container {
+    .ionicon {
+      width: 80px;
+    }
+  }
+
+  .pizza-joint-title {
+    text-align: start;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 3px;
+    width: 90%;
+    hr {
+      border: solid 2px colors.$white;
+      border-radius: 3px;
+    }
+  }
+}

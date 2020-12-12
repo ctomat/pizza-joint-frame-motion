@@ -1,0 +1,19 @@
+@use '../../scss/colors';
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .ingredients-option-container {
+    font-size: 18px;
+    margin: 10px;
+    background: none;
+    border: none;
+    color: colors.$white;
+    text-transform: capitalize;
+  }
+  .selected:before {
+    content: '»';
+    margin-right: 6px;
+  }
+}
