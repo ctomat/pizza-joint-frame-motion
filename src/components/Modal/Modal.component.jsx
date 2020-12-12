@@ -37,7 +37,7 @@ const Modal = ({ showModal, setPizza }) => (
           <p>Want to make another Pizza?</p>
           <Button
             routeDirection=""
-            buttonText="Finish Order"
+            buttonText="Order more pizzas"
             onClickFunction={() => setPizza({ base: '', toppings: [] })}
           />
         </motion.div>
